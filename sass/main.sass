@@ -1,6 +1,11 @@
-import mixins
-import variables
-import header
-import footer
-import maincontent
-    //tostart use sass --watch input output
+@import helpers\mixins
+@import helpers\variables
+@import pages\header
+@import pages\footer
+@import pages\maincontent
+
+//tostart use sass --watch input output
+// sass --watch sass:stylesheets   folder / folder
+
+html
+    +marpad(0,0)
